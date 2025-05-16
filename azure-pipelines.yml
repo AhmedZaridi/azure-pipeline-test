@@ -1,9 +1,7 @@
 trigger:
 - main
-
 pool:
-  vmImage: 'ubuntu-latest'
-
+vmImage: 'ubuntu-latest'
 steps:
 - script: echo "Build started"
 - script: python hello.py
