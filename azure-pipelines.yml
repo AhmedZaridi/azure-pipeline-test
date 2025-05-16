@@ -6,4 +6,4 @@ steps:
 - script: echo "Build started"
 - script: python hello.py
 - script: echo "Pipeline finished"
-  
+    
